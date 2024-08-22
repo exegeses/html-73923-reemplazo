@@ -6,7 +6,7 @@
 
 > Curso: Desarrollo Web con HTML |  
 > Martes y Jueves de 10hs a 12hs (Arg) |  
-> 9 clases desde 22/08/2024 hasta 12/09/2024 |  
+> 7 clases desde 22/08/2024 hasta 12/09/2024 |  
 > Código: 73923 |  
 > sensei: Marcos Pinardi |  
 
