@@ -1,0 +1,45 @@
+body{
+    background-color: hsl(325, 33%, 14%);
+    color: hsl(325, 33%, 86%);
+    font-family: trebuchet MS, sans-serif;
+    font-size: 24px;
+    margin: 0;
+}
+main{
+    background-color: hsl(325, 33%, 20%);
+    width: 768px;
+    margin: 64px auto;
+}
+    section{
+        height: 380px;
+        margin: 24px 0px;
+        background-color:  hsl(325, 33%, 8%);
+    }
+        article{
+            width: 96px;
+            height: 96px;
+            background-color: hsl(325, 33%, 40%);
+            border: 1px solid hsl(325, 33%, 70%);
+        }
+    
+    #horizontal{
+        display: flex;
+        /* Distribución en el eje horizontal */
+        /* justify-content: start; /* predeterminado: a la izquierda */
+        /* justify-content: end; /* a la derecha */
+        justify-content: center;
+    }
+
+    #espacios{
+        display: flex;
+        /* Distribución del espacio sobrante en el eje horizontal */
+        justify-content: space-between;
+    }
+
+    #vertical{
+        display: flex;
+        /* Distribución en el eje vertical */
+        /* align-items: start; /* predeterminado: arriba */
+        /* align-items: end; /* debajo */
+        align-items: center;
+    }

@@ -1,0 +1,32 @@
+
+/* reseteo */
+body{
+    /*
+        color fondo
+        color de texto
+        familia tipográfica
+        tamaño tipografía
+    */
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 1024px;
+    height: 96px;
+    margin: auto;
+    padding: 12px;
+    /* distribuir elementos */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    header nav{
+        height: 36px;
+    }
+        header nav a{
+            padding: 12px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            color: #1E1E1E;
+        }
