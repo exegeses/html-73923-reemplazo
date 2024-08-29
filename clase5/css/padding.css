@@ -1,0 +1,27 @@
+/* reseteo */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(77, 26%, 10%);
+    color: hsl(77, 26%, 86%);
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 20px;
+}
+main{
+    width: 768px;
+    margin: auto;
+}
+    article{
+        width: 128px;
+        height: 96px;
+        margin: 12px;
+        background-color: hsl(77, 26%, 30%);
+    }
+    #naranja{
+        padding: 24px;
+        background-color: hsl(36, 50%, 40%);
+    }
