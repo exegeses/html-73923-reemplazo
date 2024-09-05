@@ -68,6 +68,57 @@ header{
         width: 1100px;
         margin: 72px auto 0px auto;
         padding: 32px 24px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
+        #servicios h3{
+            width: 100%;
+            text-align: center;
+            font-weight: 400;
+            font-size: 24px;
+        }
+        #servicios article{
+            width: 336px;
+            margin-top: 32px;
+            padding: 24px 28px;
+            border: 2px solid hsl(199, 100%, 51%);
+            border-radius: 8px;
+            color: hsl(199, 100%, 51%);
+        }
+            #servicios article h2{
+                margin: 24px 0px 16px 0px;
+                font-weight: 300;
+            }
+            #servicios article p{
+                margin-bottom: 8px;
+            }
+            #servicios article a{
+                text-decoration: none;
+                color:  hsl(199, 100%, 51%);
+            }
     
+/* footer */
+footer{
+    background-color: hsl(221, 73%, 16%);
+    margin-top: 72px;
+}
+    footer div{
+        width: 1100px;
+        height: 216px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /**/
+        padding: 0px 0px 0px 16px;
+    }
+        /*footer div nav a{
+            margin: 16px;
+        }*/
+        footer div nav{
+            width: 224px;
+            display: flex;
+            justify-content: space-around;
+        }
