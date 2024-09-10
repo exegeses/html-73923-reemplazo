@@ -29,7 +29,11 @@ header{
             text-decoration: none;
         }
 
-/* main */        
+/* main */  
+main{
+    min-height: 600px;
+}
+
 /* sección hero-banner */
     #hero-banner{
         height: 680px;
@@ -99,6 +103,26 @@ header{
                 color:  hsl(199, 100%, 51%);
             }
     
+    /* formulario de contacto */
+    form{
+        width: 646px;
+        height: 464px;
+        margin: auto;
+        margin-top: 72px;
+        padding: 44px 84px;
+        background-color: hsl(199, 100%, 90%);
+        border-radius: 16px;
+    }
+        form input{
+            width: 100%;
+            margin-bottom: 32px;
+        }
+        form textarea{
+            width: 100%;
+            margin-bottom: 32px;
+        }
+
+
 /* footer */
 footer{
     background-color: hsl(221, 73%, 16%);

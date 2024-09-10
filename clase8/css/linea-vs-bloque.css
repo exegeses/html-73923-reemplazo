@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Figtree', sans-serif;
+    background-color: hsl(303, 53%, 13%);
+    color: hsl(303, 80%, 86%);
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    width: 768px;
+    margin: 80px auto;
+}
+    section{
+        margin: 40px 0px;
+        background-color: hsl(303, 53%, 10%);
+    }
+        span{
+            background-color: hsl(303, 53%, 40%);
+            /* no funciona */
+            width: 500px;
+            height: 200px;
+            margin: 32px; /* no funciona en eje Y */
+        }
+        article{
+            background-color: hsl(30, 60%, 40%);
+            width: 128px;
+            height: 104px;
+            margin: 24px;
+        }
+        img{
+            width: 216px;
+            margin: 32px;
+        }
+    
+    
